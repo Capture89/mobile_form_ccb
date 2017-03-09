@@ -1,0 +1,75 @@
+html,body {
+	-webkit-user-select: none;
+			user-select: none;
+	min-width: 320px;
+	max-width: 640px;
+	margin: 0 auto;
+}
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	background-color: #f7f7f7;
+	font-family:"Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB","Hiragino Sans GB W3","Microsoft YaHei UI","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;
+	font-size: 16px;
+}
+.wrapper {
+	padding: 5px;
+}
+.title {
+	width: 100%;
+	margin-top: 0;
+	padding: 8px;
+	background-color: #2695D0;
+	text-align: center;
+	color: #fff;
+}
+.top_txt {
+	padding: 10px;
+}
+.txt_row {
+	display: block;
+	text-indent: 2em;
+	font-size: 14px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.content {
+	width: 100%;
+	padding: 10px;
+	border-top: dashed 1px #ddd;
+}
+.control-label h4 {
+	color: #000;
+	font-weight: 600;
+}
+.control-label h4 span {
+	display: inline-block;
+	vertical-align: middle;
+	color: #f00;
+	font-size: 1.2em;
+}
+#username {
+	margin-bottom: 15px;
+}
+input[type="radio"] {
+	margin-right: 10px;
+	margin-left: 20px;
+}
+.form-group select {
+	width: 100%;
+	display: inline;
+	-webkit-appearance: none;
+			appearance: none;
+	margin-bottom: 10px;
+}
+.caret {
+	border-width: 6px;
+	color: #777;
+	margin-left: -30px;
+}
+.btn_submit {
+	width: 100%;
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
